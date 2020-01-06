@@ -37,7 +37,7 @@ def consolidate_cart(cart)
 end
   
 
-def apply_coupons(cart, coupons)
+# def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
@@ -95,8 +95,6 @@ def apply_clearance(cart)
 #   result
 # end
   
-  
-  def apply_clearance(cart)
   i = 0
   while i < cart.length do
     item = cart[i]
